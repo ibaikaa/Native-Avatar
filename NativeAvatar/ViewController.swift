@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         
         titleView.addSubview(avatarView)
         NSLayoutConstraint.activate([
-            avatarView.rightAnchor.constraint(equalTo: titleView.safeAreaLayoutGuide.rightAnchor, constant: -16),
+            avatarView.rightAnchor.constraint(equalTo: titleView.rightAnchor, constant: -16),
             avatarView.bottomAnchor.constraint(equalTo: titleView.bottomAnchor, constant: -10),
             avatarView.widthAnchor.constraint(equalToConstant: 36),
             avatarView.heightAnchor.constraint(equalToConstant: 36)
